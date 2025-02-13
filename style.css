@@ -1,0 +1,156 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Form Styles */
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+/* Dashboard & Journal Entries */
+/* Centering the journal form */
+.container {
+    max-width: 600px;
+    width: 100%;
+    margin: 50px auto;  /* Centers the container */
+    text-align: center;
+}
+
+/* Centering the form */
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;  /* Centers the form */
+    text-align: center;
+}
+
+/* Style for textarea */
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none; /* Prevent resizing */
+}
+
+/* Style for button */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.journal-entry {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.journal-entry strong {
+    display: block;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.journal-entry p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.journal-entry a {
+    text-decoration: none;
+    color: #ff4500;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.journal-entry a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Links */
+.navbar {
+    width: 100%;
+    padding: 15px;
+    background: #007bff;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Logout Button */
+.logout {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.logout a {
+    color: #ff4500;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.logout a:hover {
+    text-decoration: underline;
+}
